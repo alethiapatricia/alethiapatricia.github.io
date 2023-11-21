@@ -6,6 +6,7 @@
     width: 23%;
     padding: 1%;
     text-align: center;
+    
 }
 nav{
     width:70%;
@@ -27,12 +28,12 @@ ul{
 }
 footer{
     padding: center;
-    background-color: #c8c8e7;
+    background-color: #c8e7de;
  
 }
 header{
     padding: center;
-    background-color: #c8c8e7;
+    background-color: #c8e7de;
  
 }
 footer > ul {
@@ -42,7 +43,16 @@ footer > ul {
     
 }
 li {
-    border: 2px solid rgb(0, 68, 255);
+    border: 2px solid rgba(185, 146, 39, 0.956);
     border-radius: 5px;
     padding: 5px;
+    
+}
+.font-family{
+    font-family: 'DM Serif Display', serif;
+    font-size: large;
+}
+.font-family-h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: x-large;
 }
