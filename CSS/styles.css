@@ -1,3 +1,6 @@
+* {
+    font-family: 'DM Serif Display', serif;
+}
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -55,4 +58,55 @@ li {
 .font-family-h1{
     font-family: 'DM Serif Display', serif;
     font-size: x-large;
+}
+
+.mySkills > h1{
+    text-align: center;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexContainer > div{
+    width: 33%;
+    padding: 1%;
+    text-align: center;
+}
+.flexContainer > div> img{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.myWork > h1{
+    text-align: center;
+}
+.workGrid{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 30% 70%;
+}
+.workGrid > div{
+    padding: 5%;
+    text-align: center;
+}
+.workGrid > div> img{
+    width: 100%;
+    scale: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+}
+.flexContainer > div{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+}
+.workGrid{
+    display: flex;
+    flex-direction: column;
+}
 }
